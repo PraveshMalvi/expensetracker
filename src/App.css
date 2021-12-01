@@ -1,0 +1,26 @@
+.main .top-head {
+  font-weight: 900;
+  position: relative;
+  max-width: fit-content;
+  margin: auto;
+}
+
+.main .top-head::before {
+  position: absolute;
+  height: 4px;
+  width: 50%;
+  content: "";
+  top: 0%;
+  left: 0%;
+  background-color: #5810ff;
+}
+
+.main .top-head::after {
+  position: absolute;
+  height: 4px;
+  width: 50%;
+  content: "";
+  bottom: -5%;
+  right: 0%;
+  background-color: #5810ff;
+}
